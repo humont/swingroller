@@ -1,0 +1,20 @@
+---
+title: SwingRoller
+timezone: UTC
+
+collections:
+  assets:
+    title: Assets
+    output: false
+
+email:  
+description: ""
+baseurl:
+url:
+github_username: humont
+markdown: kramdown
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock

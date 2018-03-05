@@ -1,0 +1,87 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   FONT WEIGHT
+   Docs: http://tachyons.io/docs/typography/font-weight/
+
+   Base
+     fw = font-weight
+
+   Modifiers:
+     1 = literal value 100
+     2 = literal value 200
+     3 = literal value 300
+     4 = literal value 400
+     5 = literal value 500
+     6 = literal value 600
+     7 = literal value 700
+     8 = literal value 800
+     9 = literal value 900
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+.normal { font-weight: normal; }
+.b      { font-weight: bold; }
+.fw1    { font-weight: 100; }
+.fw2    { font-weight: 200; }
+.fw3    { font-weight: 300; }
+.fw4    { font-weight: 400; }
+.fw5    { font-weight: 500; }
+.fw6    { font-weight: 600; }
+.fw7    { font-weight: 700; }
+.fw8    { font-weight: 800; }
+.fw9    { font-weight: 900; }
+
+
+@include small-only {
+  .normal_s { font-weight: normal; }
+  .b_s      { font-weight: bold; }
+  .fw1_s    { font-weight: 100; }
+  .fw2_s    { font-weight: 200; }
+  .fw3_s    { font-weight: 300; }
+  .fw4_s    { font-weight: 400; }
+  .fw5_s    { font-weight: 500; }
+  .fw6_s    { font-weight: 600; }
+  .fw7_s    { font-weight: 700; }
+  .fw8_s    { font-weight: 800; }
+  .fw9_s    { font-weight: 900; }
+}
+
+@include medium-up {
+  .normal_m { font-weight: normal; }
+  .b_m      { font-weight: bold; }
+  .fw1_m    { font-weight: 100; }
+  .fw2_m    { font-weight: 200; }
+  .fw3_m    { font-weight: 300; }
+  .fw4_m    { font-weight: 400; }
+  .fw5_m    { font-weight: 500; }
+  .fw6_m    { font-weight: 600; }
+  .fw7_m    { font-weight: 700; }
+  .fw8_m    { font-weight: 800; }
+  .fw9_m    { font-weight: 900; }
+}
+
+@include large-up {
+  .normal_l { font-weight: normal; }
+  .b_l      { font-weight: bold; }
+  .fw1_l    { font-weight: 100; }
+  .fw2_l    { font-weight: 200; }
+  .fw3_l    { font-weight: 300; }
+  .fw4_l    { font-weight: 400; }
+  .fw5_l    { font-weight: 500; }
+  .fw6_l    { font-weight: 600; }
+  .fw7_l    { font-weight: 700; }
+  .fw8_l    { font-weight: 800; }
+  .fw9_l    { font-weight: 900; }
+}

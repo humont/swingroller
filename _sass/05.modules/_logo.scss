@@ -1,0 +1,10 @@
+/* Logo */
+
+.logo {
+  
+  &_large {}
+  &_small {
+    width: 20vw;
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,87 @@
+/*-----------------------*/
+/*----- text-Color ------*/
+/*-----------------------*/
+
+.light {
+  color: $text-color_light;
+
+  &_muted{color: $text-color_light_secondary}
+
+  &_disabled{color: $text-color_light_disabled}
+}
+
+.dark {
+  color: $text-color_dark;
+
+  &_muted{color: $text-color_dark_secondary}
+
+  &_disabled{color: $text-color_dark_disabled}
+}
+
+.primary{
+  color:$primary-color;
+  
+    &_v-light{color: $primary-color_v-light}
+    
+    &_light{color: $primary-color_light}
+    
+    &_dark{color: $primary-color_dark}
+    
+    &_v-dark{color: $primary-color_v-dark}
+}
+
+.secondary{
+  color:$secondary-color;
+
+    &_v-light{color: $secondary-color_v-light}
+
+    &_light{color: $secondary-color_light}
+
+    &_dark{color: $secondary-color_dark}
+
+    &_v-dark{color: $secondary-color_v-dark}
+}
+
+.tertiary{
+  color:$tertiary-color;
+
+    &_v-light{color: $tertiary-color_v-light}
+
+    &_light{color: $tertiary-color_light}
+
+    &_dark{color: $tertiary-color_dark}
+
+    &_v-dark{color: $tertiary-color_v-dark}
+}
+
+/* Hovered */
+
+.light_hovered:hover {color: $text-color_light}
+.light_muted_hovered:hover{color: $text-color_light_secondary}
+.light_disabled_hovered:hover{color: $text-color_light_disabled}
+
+
+.dark_hovered:hover {color: $text-color_dark}
+.dark_muted_hovered:hover{color: $text-color_dark_secondary}
+.dark_disabled_hovered:hover{color: $text-color_dark_disabled}
+
+
+.brand-green_hovered:hover{color:$primary-color}
+.brand-green_v-light_hovered:hover{color: $primary-color_v-light}
+.brand-green_light_hovered:hover{color: $primary-color_light}
+.brand-green_dark_hovered:hover{color: $primary-color_dark}
+.brand-green_v-dark_hovered:hover{color: $primary-color_v-dark}
+
+
+.brand-red_hovered:hover{color:$secondary-color}
+.brand-red_v-light_hovered:hover{color: $secondary-color_v-light}
+.brand-red_light_hovered:hover{c_hoveredolor: $secondary-color_light}
+.brand-red_dark_hovered:hover{color: $secondary-color_dark}
+.brand-red_v-dark_hovered:hover{color: $secondary-color_v-dark}
+
+
+.brand_blue_hovered:hover{color:$tertiary-color}
+.brand-blue_v-light_hovered:hover{color: $tertiary-color_v-light}
+.brand-blue_light_hovered:hover{color: $tertiary-color_light}
+.brand-blue_dark_hovered:hover{color: $tertiary-color_dark}
+.brand-blue_v-dark_hovered:hover{color: $tertiary-color_v-dark}

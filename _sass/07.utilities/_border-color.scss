@@ -1,0 +1,79 @@
+/*---------------------*/
+/*----- brdr-Color ------*/
+/*---------------------*/
+
+
+/* Branding Colors */
+
+.brdr_light {
+  border-color: $text-color_light;
+  &_muted{border-color: $text-color_light_secondary}
+  &_disabled{border-color: $text-color_light_disabled}
+}
+
+.brdr_dark {
+  border-color: $text-color_dark;
+  &_muted{border-color: $text-color_dark_secondary}
+  &_disabled{border-color: $text-color_dark_disabled}
+}
+
+.brdr_brand-white{
+  border-color: $background-color;
+}
+
+.brdr_brand-green{
+  border-color:$primary-color;
+    &_v-light{border-color: $primary-color_v-light}
+    &_light{border-color: $primary-color_light}
+    &_dark{border-color: $primary-color_dark}
+    &_v-dark{border-color: $primary-color_v-dark}
+}
+
+.brdr_brand-red{
+  border-color:$secondary-color;
+    &_v-light{border-color: $secondary-color_v-light}
+    &_light{border-color: $secondary-color_light}
+    &_dark{border-color: $secondary-color_dark}
+    &_v-dark{border-color: $secondary-color_v-dark}
+}
+
+.brdr_brand-blue{
+  border-color:$tertiary-color;
+    &_v-light{border-color: $tertiary-color_v-light}
+    &_light{border-color: $tertiary-color_light}
+    &_dark{border-color: $tertiary-color_dark}
+    &_v-dark{border-color: $tertiary-color_v-dark}
+}
+
+
+/* Hovered */
+
+.brdr_light_hovered:hover {border-color: $text-color_light}
+.brdr_light_muted_hovered:hover{border-color: $text-color_light_secondary}
+.brdr_light_disabled_hovered:hover{border-color: $text-color_light_disabled}
+
+
+.brdr_dark_hovered:hover {border-color: $text-color_dark}
+.brdr_dark_muted_hovered:hover{border-color: $text-color_dark_secondary}
+.brdr_dark_disabled_hovered:hover{border-color: $text-color_dark_disabled}
+
+
+.brdr_brand-green_hovered:hover{border-color:$primary-color}
+.brdr_brand-green_v-light_hovered:hover{border-color: $primary-color_v-light}
+.brdr_brand-green_light_hovered:hover{border-color: $primary-color_light}
+.brdr_brand-green_dark_hovered:hover{border-color: $primary-color_dark}
+.brdr_brand-green_v-dark_hovered:hover{border-color: $primary-color_v-dark}
+
+
+.brdr_brand-red_hovered:hover{border-color:$secondary-color}
+.brdr_brand-red_v-light_hovered:hover{border-color: $secondary-color_v-light}
+.brdr_brand-red_light_hovered:hover{border-color: $secondary-color_light}
+.brdr_brand-red_dark_hovered:hover{border-color: $secondary-color_dark}
+.brdr_brand-red_v-dark_hovered:hover{border-color: $secondary-color_v-dark}
+
+
+.brdr_brand-blue_hovered:hover{border-color:$tertiary-color}
+.brdr_brand-blue_v-light_hovered:hover{border-color: $tertiary-color_v-light}
+.brdr_brand-blue_light_hovered:hover{border-color: $tertiary-color_light}
+.brdr_brand-blue_dark_hovered:hover{border-color: $tertiary-color_dark}
+.brdr_brand-blue_v-dark_hovered:hover{border-color: $tertiary-color_v-dark}

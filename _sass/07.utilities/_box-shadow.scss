@@ -1,0 +1,66 @@
+/*--------------------*/
+/*---- Box Shadow ----*/
+/*--------------------*/
+
+.shadow-1 { -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+.shadow-2 { -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
+.shadow-3 { -webkit-box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+.shadow-4 { -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); }
+.shadow-5 { -webkit-box-shadow: 5px 5px 15px rgba( 0, 0, 0, 0.2 ); box-shadow: 5px 5px 15 rgba( 0, 0, 0, 0.2 ); }
+
+@include small-only {
+  .shadow-1_s { -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+  .shadow-2_s { -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
+  .shadow-3_s { -webkit-box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-4_s { -webkit-box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-5_s { -webkit-box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+}
+
+@include medium-up {
+  .shadow-1_m { -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+  .shadow-2_m { -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
+  .shadow-3_m { -webkit-box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-4_m { -webkit-box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-5_m { -webkit-box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+}
+
+@include large-up {
+  .shadow-1_l { -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+  .shadow-2_l { -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
+  .shadow-3_l { -webkit-box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-4_l { -webkit-box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-5_l { -webkit-box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+}
+
+
+/* Hovered */
+
+.shadow-1_hovered:hover { -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+.shadow-2_hovered:hover { -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
+.shadow-3_hovered:hover { -webkit-box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+.shadow-4_hovered:hover { -webkit-box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+.shadow-5_hovered:hover { -webkit-box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+
+@include small-only {
+  .shadow-1_s_hovered:hover { -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+  .shadow-2_hovered_s:hover { -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
+  .shadow-3_hovered_s:hover { -webkit-box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-4_hovered_s:hover { -webkit-box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-5_hovered_s:hover { -webkit-box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+}
+
+@include medium-up {
+  .shadow-1_m_hovered:hover { -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+  .shadow-2_hovered_m:hover { -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
+  .shadow-3_hovered_m:hover { -webkit-box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-4_hovered_m:hover { -webkit-box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-5_hovered_m:hover { -webkit-box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+}
+
+@include large-up {
+  .shadow-1_l_hovered:hover { -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+  .shadow-2_hovered_l:hover { -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
+  .shadow-3_hovered_l:hover { -webkit-box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-4_hovered_l:hover { -webkit-box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+  .shadow-5_hovered_l:hover { -webkit-box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+}

@@ -1,0 +1,91 @@
+
+// Color Scheme
+$background-color: #FFFFFE;
+
+
+$color-primary-0: #F06510;	// Main Primary color
+$color-primary-1: #8DD7B0;
+$color-primary-2: #5EBC89;
+$color-primary-3: #249357;
+$color-primary-4: #117640;
+
+$color-secondary-1-0: #F0A910;	// Main Secondary color (1)
+$color-secondary-1-1: #F8A2B0;
+$color-secondary-1-2: #F2798C;
+$color-secondary-1-3: #C42F47;
+$color-secondary-1-4: #9E172D;
+
+$color-secondary-2-0: #3CBFC1;	// Main Secondary color (2)
+$color-secondary-2-1: #8BB4CE;
+$color-secondary-2-2: #5B8CAC;
+$color-secondary-2-3: #266085;
+$color-secondary-2-4: #15496B;
+
+
+
+
+$primary-color: rgba($color-primary-0, 1);            //Magazine color
+$primary-color_light: rgba($color-primary-1, 1);
+$primary-color_v-light: rgba($color-primary-2, 1);
+$primary-color_dark: rgba($color-primary-3, 1);
+$primary-color_v-dark: rgba($color-primary-4, 1);
+
+$secondary-color: rgba($color-secondary-1-0, 1);          //Blog Color
+$secondary-color_light: rgba($color-secondary-1-1, 1);
+$secondary-color_v-light: rgba($color-secondary-1-2, 1);
+$secondary-color_dark: rgba($color-secondary-1-3, 1);
+$secondary-color_v-dark: rgba($color-secondary-1-3, 1);
+
+$tertiary-color: rgba($color-secondary-2-0, 1);          //Newsletter color
+$tertiary-color_light: rgba($color-secondary-2-1, 1);
+$tertiary-color_v-light: rgba($color-secondary-2-2, 1);
+$tertiary-color_dark: rgba($color-secondary-2-3, 1);
+$tertiary-color_v-dark: rgba($color-secondary-2-4, 1);
+
+$text-color_light: rgba(#ffffff, 1);
+$text-color_light_secondary: rgba(#ffffff, 0.7);
+$text-color_light_disabled: rgba(#ffffff, 0.5);
+
+$text-color_dark: rgba(#000000, 0.87);
+$text-color_dark_secondary: rgba(#000000, 0.54);
+$text-color_dark_disabled: rgba(#000000, 0.2);
+
+$alert-color: rgba(#fff418, 1);
+$success-color: rgba(#3a4e48, 1);
+$link-color: rgba(#3a4e48, 1);
+
+// Font Stack
+$header-fonts: Helvetica, sans-serif;
+$body-fonts: Helvetica, sans-serif;
+
+
+//Screen Sizes
+$small: 800px; // anything below 40em (640px) = small
+$medium: 1024px; // anything between 40 and 68em (1088px) = medium
+$large: 1400px; // anything beween 68 and 87.50 (1400px) = large
+// anything else = Xlarge
+
+
+@mixin small-only {
+  @media (max-width: 639px) { @content; }
+}
+@mixin medium-up {
+  @media (min-width: 640px) { @content; }
+}
+@mixin large-up {
+  @media (min-width: 1024px) { @content; }
+}
+
+
+
+
+// Spacing variables
+
+$spacing-none: 0 !default;
+$spacing-extra-small: .25rem !default;
+$spacing-small: .5rem !default;
+$spacing-medium: 1rem !default;
+$spacing-large: 2rem !default;
+$spacing-extra-large: 4rem !default;
+$spacing-extra-extra-large: 8rem !default;
+$spacing-extra-extra-extra-large: 16rem !default;

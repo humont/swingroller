@@ -1,0 +1,59 @@
+/*--------------------*/
+/*------ Shapes ------*/
+/*--------------------*/
+
+.top_diagonal-down-1 {
+  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+}
+
+.top_diagonal-up-1 {
+  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.top_diagonal-down-2 {
+  -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+}
+
+.top_diagonal-up-2 {
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+}
+
+@include small-only{
+  .top_diagonal-down-1 {
+    -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 3%, 100% 100%, 0% 100%);
+  }
+
+  .top_diagonal-up-1 {
+    -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+
+@include medium-up{
+  .top_diagonal-down-1 {
+    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+  }
+
+  .top_diagonal-up-1 {
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+
+@include large-up{
+  .top_diagonal-down-1 {
+    -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+  }
+
+  .top_diagonal-up-1 {
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+  }
+}

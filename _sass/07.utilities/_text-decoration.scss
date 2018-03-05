@@ -1,0 +1,53 @@
+/*----------------------------*/
+/*----- Text-Decoration ------*/
+/*----------------------------*/
+
+
+
+.strike       { text-decoration: line-through; }
+.underline    { text-decoration: underline; }
+.no-underline { text-decoration: none; }
+
+
+@include small-only {
+  .strike_s       { text-decoration: line-through; }
+  .underline_s    { text-decoration: underline; }
+  .no-underline_s { text-decoration: none; }
+}
+
+@include medium-up {
+  .strike_m       { text-decoration: line-through; }
+  .underline_m    { text-decoration: underline; }
+  .no-underline_m { text-decoration: none; }
+}
+
+@include large-up {
+  .strike_l       { text-decoration: line-through; }
+  .underline_l {    text-decoration: underline; }
+  .no-underline_l { text-decoration: none; }
+}
+
+
+/* Hovered */
+.strike_hovered:hover       { text-decoration: line-through; }
+.underline_hovered:hover    { text-decoration: underline; }
+.no-underline_hovered:hover { text-decoration: none; }
+
+
+@include small-only {
+  .strike_hovered_s:hover       { text-decoration: line-through; }
+  .underline_hovered_s:hover    { text-decoration: underline; }
+  .no-underline_hovered_s:hover { text-decoration: none; }
+}
+
+@include medium-up {
+  .strike_hovered_m:hover       { text-decoration: line-through; }
+  .underline_hovered_m:hover    { text-decoration: underline; }
+  .no-underline_hovered_m:hover { text-decoration: none; }
+}
+
+@include large-up {
+  .strike_hovered_l:hover       { text-decoration: line-through; }
+  .underline_hovered_l:hover {    text-decoration: underline; }
+  .no-underline_hovered_l:hover { text-decoration: none; }
+}

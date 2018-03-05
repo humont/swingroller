@@ -1,0 +1,79 @@
+/*---------------------*/
+/*----- bg-Color ------*/
+/*---------------------*/
+
+
+/* Branding Colors */
+
+.bg_light {
+  background-color: $text-color_light;
+  &_muted{background-color: $text-color_light_secondary}
+  &_disabled{background-color: $text-color_light_disabled}
+}
+
+.bg_dark {
+  background-color: $text-color_dark;
+  &_muted{background-color: $text-color_dark_secondary}
+  &_disabled{background-color: $text-color_dark_disabled}
+}
+
+.bg_brand-white{
+  background-color: $background-color;
+}
+
+.bg_brand-green{
+  background-color:$primary-color;
+    &_v-light{background-color: $primary-color_v-light}
+    &_light{background-color: $primary-color_light}
+    &_dark{background-color: $primary-color_dark}
+    &_v-dark{background-color: $primary-color_v-dark}
+}
+
+.bg_brand-red{
+  background-color:$secondary-color;
+    &_v-light{background-color: $secondary-color_v-light}
+    &_light{background-color: $secondary-color_light}
+    &_dark{background-color: $secondary-color_dark}
+    &_v-dark{background-color: $secondary-color_v-dark}
+}
+
+.bg_brand-blue{
+  background-color:$tertiary-color;
+    &_v-light{background-color: $tertiary-color_v-light}
+    &_light{background-color: $tertiary-color_light}
+    &_dark{background-color: $tertiary-color_dark}
+    &_v-dark{background-color: $tertiary-color_v-dark}
+}
+
+
+/* Hovered */
+
+.bg_light_hovered:hover {background-color: $text-color_light}
+.bg_light_muted_hovered:hover{background-color: $text-color_light_secondary}
+.bg_light_disabled_hovered:hover{background-color: $text-color_light_disabled}
+
+
+.bg_dark_hovered:hover {background-color: $text-color_dark}
+.bg_dark_muted_hovered:hover{background-color: $text-color_dark_secondary}
+.bg_dark_disabled_hovered:hover{background-color: $text-color_dark_disabled}
+
+
+.bg_brand-green_hovered:hover{background-color:$primary-color}
+.bg_brand-green_v-light_hovered:hover{background-color: $primary-color_v-light}
+.bg_brand-green_light_hovered:hover{background-color: $primary-color_light}
+.bg_brand-green_dark_hovered:hover{background-color: $primary-color_dark}
+.bg_brand-green_v-dark_hovered:hover{background-color: $primary-color_v-dark}
+
+
+.bg_brand-red_hovered:hover{background-color:$secondary-color}
+.bg_brand-red_v-light_hovered:hover{background-color: $secondary-color_v-light}
+.bg_brand-red_light_hovered:hover{background-color: $secondary-color_light}
+.bg_brand-red_dark_hovered:hover{background-color: $secondary-color_dark}
+.bg_brand-red_v-dark_hovered:hover{background-color: $secondary-color_v-dark}
+
+
+.bg_brand-blue_hovered:hover{background-color:$tertiary-color}
+.bg_brand-blue_v-light_hovered:hover{background-color: $tertiary-color_v-light}
+.bg_brand-blue_light_hovered:hover{background-color: $tertiary-color_light}
+.bg_brand-blue_dark_hovered:hover{background-color: $tertiary-color_dark}
+.bg_brand-blue_v-dark_hovered:hover{background-color: $tertiary-color_v-dark}

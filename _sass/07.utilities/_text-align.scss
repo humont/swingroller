@@ -1,0 +1,48 @@
+
+/* Converted Variables*/
+
+
+/* Custom Media Query Variables*/
+
+
+/*
+
+  TEXT ALIGN
+  Docs: http://tachyons.io/docs/typography/text-align/
+
+  Base
+    t = text-align
+
+  Modifiers
+    l = left
+    r = right
+    c = center
+
+  Media Query Extensions:
+    -ns = not-small
+    -m  = medium
+    -l  = large
+
+*/
+
+.tl  { text-align: left; }
+.tr  { text-align: right; }
+.tc  { text-align: center; }
+
+@include small-only {
+  .tl_s  { text-align: left; }
+  .tr_s  { text-align: right; }
+  .tc_s  { text-align: center; }
+}
+
+@include medium-up {
+  .tl_m  { text-align: left; }
+  .tr_m  { text-align: right; }
+  .tc_m  { text-align: center; }
+}
+
+@include large-up {
+  .tl_l  { text-align: left; }
+  .tr_l  { text-align: right; }
+  .tc_l  { text-align: center; }
+}

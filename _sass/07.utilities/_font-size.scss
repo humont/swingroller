@@ -1,0 +1,46 @@
+/*----------------------*/
+/*----- Font-size ------*/
+/*----------------------*/
+
+.xxs{font-size: 0.422rem}
+.xs{font-size: 0.563rem}
+.s{font-size: 0.75rem}
+.n{font-size: 1rem}
+.l{font-size: 1.333rem}
+.xl{font-size: 1.777rem}
+.xxl{font-size: 2.369rem}
+.xxxl{font-size: 7.478rem}
+
+@include small-only {
+  .xxs_s{font-size: 0.422rem}
+  .xs_s{font-size: 0.563rem}
+  .s_s{font-size: 0.75rem}
+  .n_s{font-size: 1rem}
+  .l_s{font-size: 1.333rem}
+  .xl_s{font-size: 1.777rem}
+  .xxl_s{font-size: 2.369rem}
+  .xxxl_s{font-size: 7.478rem}
+}
+
+@include medium-up {
+  .xxs_m{font-size: 0.422rem}
+  .xs_m{font-size: 0.563rem}
+  .s_m{font-size: 0.75rem}
+  .n_m{font-size: 1rem}
+  .l_m{font-size: 1.333rem}
+  .xl_m{font-size: 1.777rem}
+  .xxl_m{font-size: 2.369rem}
+  .xxxl_m{font-size: 7.478rem}
+}
+
+@include large-up {
+  .xxs_l{font-size: 0.422rem}
+  .xs_l{font-size: 0.563rem}
+  .s_l{font-size: 0.75rem}
+  .n_l{font-size: 1rem}
+  .l_l{font-size: 1.333rem}
+  .xl_l{font-size: 1.777rem}
+  .xxl_l{font-size: 2.369rem}
+  .xxxl_l{font-size: 7.478rem}
+  
+}

@@ -1,0 +1,135 @@
+ant
+
+/* Overflows */
+
+.ovrflw_hddn {
+  overflow: hidden;
+}
+
+
+
+
+/*-----------------------------------*/
+ /*---Show/Hide on screen size ------*/
+ /*----------------------------------*/
+
+/*-- Small Screens ONLY -------------*/
+@include small-only {
+  .m-l_only{
+    display: none ;
+  }
+}
+
+/*-- Small & Medium Screens -----------------*/
+@media (max-width: $medium - 1px) {
+  .l_only {
+    display: none ;
+  }
+}
+
+/*-- Medium Screens -----------------*/
+
+@media (max-width: $small - 1px), (min-width: $medium) {
+    .m_only{
+      display: none ;
+    }
+}
+
+@media (min-width:$small) and (max-width: $medium - 1px ) {
+  .s-l_only{
+    display: none ;
+  }
+}
+
+/*-- Medium & large Screens --------------------*/
+@include medium-up {
+  .s_only{
+    display: none ;
+  }
+}
+
+/*-- large Screens --------------------*/
+
+@include large-up {
+
+
+  .s-m_only{
+    display: none ;
+  }
+}
+
+/*
+
+   DISPLAY
+   Docs: http://tachyons.io/docs/layout/display
+
+   Base:
+    d = display
+
+   Modifiers:
+    n     = none
+    b     = block
+    ib    = inline-block
+    it    = inline-table
+    t     = table
+    tc    = table-cell
+    t-row          = table-row
+    t-columm       = table-column
+    t-column-group = table-column-group
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+.dn {display: none; }
+.di {display: inline; }
+.db {display: block; }
+.dib {display: inline-block; }
+
+/* Flex Box*/
+.dfr {
+  display: flex;
+  flex-direction: row;
+}
+
+.dfc {
+  display: flex;
+  flex-direction: column;
+}
+.dfwrap {flex-wrap: wrap;}
+
+
+/*
+  This will set table to full width and then
+  all cells will be equal width
+*/
+
+
+@include small-only {
+  .dn_s {              display: none; }
+  .di_s {              display: inline; }
+  .db_s {              display: block; }
+  .dib_s {             display: inline-block; }
+
+}
+
+@include medium-up {
+  .dn_m {              display: none; }
+  .di_m {              display: inline; }
+  .db_m {              display: block; }
+  .dib_m {             display: inline-block; }
+
+
+}
+
+@include large-up {
+  .dn_l {              display: none; }
+  .di_l {              display: inline; }
+  .db_l {              display: block; }
+  .dib_l {             display: inline-block; }
+
+
+}

@@ -1,0 +1,153 @@
+
+
+/* Custom Classes*/
+
+
+/*
+
+   COORDINATES
+   Docs: http://tachyons.io/docs/layout/position/
+
+   Use in combination with the position module.
+
+   Base:
+     top
+     bottom
+     right
+     left
+
+   Modifiers:
+     -0  = literal value 0
+     -1  = literal value 1
+     -2  = literal value 2
+     _-1 = literal value -1
+     _-2 = literal value -2
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+.top_0    { top:    0; }
+.right_0  { right:  0; }
+.bottom_0 { bottom: 0; }
+.left_0   { left:   0; }
+
+.top_1    { top:    1rem; }
+.right_1  { right:  1rem; }
+.bottom_1 { bottom: 1rem; }
+.left_1   { left:   1rem; }
+
+.top_2    { top:    2rem; }
+.right_2  { right:  2rem; }
+.bottom_2 { bottom: 2rem; }
+.left_2   { left:   2rem; }
+
+.top_-1    { top:    -1rem; }
+.right_-1  { right:  -1rem; }
+.bottom_-1 { bottom: -1rem; }
+.left_-1   { left:   -1rem; }
+
+.top_-2    { top:    -2rem; }
+.right_-2  { right:  -2rem; }
+.bottom_-2 { bottom: -2rem; }
+.left_-2   { left:   -2rem; }
+
+
+.absolute-fill {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@include small-only {
+  .top_0_s     { top:   0; }
+  .left_0_s    { left:  0; }
+  .right_0_s   { right: 0; }
+  .bottom_0_s  { bottom: 0; }
+  .top_1_s     { top:   1rem; }
+  .left_1_s    { left:  1rem; }
+  .right_1_s   { right: 1rem; }
+  .bottom_1_s  { bottom: 1rem; }
+  .top_2_s     { top:   2rem; }
+  .left_2_s    { left:  2rem; }
+  .right_2_s   { right: 2rem; }
+  .bottom_2_s  { bottom: 2rem; }
+  .top_-1_s    { top:    -1rem; }
+  .right_-1_s  { right:  -1rem; }
+  .bottom_-1_s { bottom: -1rem; }
+  .left_-1_s   { left:   -1rem; }
+  .top_-2_s    { top:    -2rem; }
+  .right_-2_s  { right:  -2rem; }
+  .bottom_-2_s { bottom: -2rem; }
+  .left_-2_s   { left:   -2rem; }
+  .absolute-fill_s {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .translate-x_10 { -webkit-transform: translateX(20em); transform: translateX(20em);}
+}
+
+@include medium-up {
+  .top_0_m     { top:   0; }
+  .left_0_m    { left:  0; }
+  .right_0_m   { right: 0; }
+  .bottom_0_m  { bottom: 0; }
+  .top_1_m     { top:   1rem; }
+  .left_1_m    { left:  1rem; }
+  .right_1_m   { right: 1rem; }
+  .bottom_1_m  { bottom: 1rem; }
+  .top_2_m     { top:   2rem; }
+  .left_2_m    { left:  2rem; }
+  .right_2_m   { right: 2rem; }
+  .bottom_2_m  { bottom: 2rem; }
+  .top_-1_m    { top:    -1rem; }
+  .right_-1_m  { right:  -1rem; }
+  .bottom_-1_m { bottom: -1rem; }
+  .left_-1_m   { left:   -1rem; }
+  .top_-2_m    { top:    -2rem; }
+  .right_-2_m  { right:  -2rem; }
+  .bottom_-2_m { bottom: -2rem; }
+  .left_-2_m   { left:   -2rem; }
+  .absolute-fill_m {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@include large-up {
+  .top_0_l     { top:   0; }
+  .left_0_l    { left:  0; }
+  .right_0_l   { right: 0; }
+  .bottom_0_l  { bottom: 0; }
+  .top_1_l     { top:   1rem; }
+  .left_1_l    { left:  1rem; }
+  .right_1_l   { right: 1rem; }
+  .bottom_1_l  { bottom: 1rem; }
+  .top_2_l     { top:   2rem; }
+  .left_2_l    { left:  2rem; }
+  .right_2_l   { right: 2rem; }
+  .bottom_2_l  { bottom: 2rem; }
+  .top_-1_l    { top:    -1rem; }
+  .right_-1_l  { right:  -1rem; }
+  .bottom_-1_l { bottom: -1rem; }
+  .left_-1_l   { left:   -1rem; }
+  .top_-2_l    { top:    -2rem; }
+  .right_-2_l  { right:  -2rem; }
+  .bottom_-2_l { bottom: -2rem; }
+  .left_-2_l   { left:   -2rem; }
+  .absolute-fill_l {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}

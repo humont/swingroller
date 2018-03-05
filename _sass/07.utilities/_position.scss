@@ -1,0 +1,48 @@
+/*-----------------------*/
+/*------ Position -------*/
+/*-----------------------*/
+
+
+.static{position:static;}
+.relative{position:relative;}
+.absolute{position:absolute;}
+.fixed{position:fixed;}
+
+/* ALWAYS USE WITH COORDINATES MODULE */
+.sticky{
+  position:-webkit-sticky;
+  position:sticky;
+}
+
+@include small-only {
+
+  .static_s{position:static;}
+  .relative_s{position:relative;}
+  .absolute_s{position:absolute;}
+  .fixed_s{position:fixed;}
+
+  /* ALWAYS USE WITH COORDINATES MODULE */
+  .sticky_s{position:-webkit-sticky;position:sticky; }
+}
+
+@include medium-up {
+
+  .static_m{position:static;}
+  .relative_m{position:relative;}
+  .absolute_m{position:absolute;}
+  .fixed_m{position:fixed;}
+
+  /* ALWAYS USE WITH COORDINATES MODULE */
+  .sticky_m{position:-webkit-sticky;position:sticky; }
+}
+
+@include large-up {
+
+  .static_l{position:static;}
+  .relative_l{position:relative;}
+  .absolute_l{position:absolute;}
+  .fixed_l{position:fixed;}
+
+  /* ALWAYS USE WITH COORDINATES MODULE */
+  .sticky_l{position:-webkit-sticky;position:sticky; }
+}

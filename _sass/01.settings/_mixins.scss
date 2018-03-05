@@ -1,0 +1,31 @@
+
+
+
+// Sign up Mixin
+@mixin signup($color) {
+  .signup {
+    input, button {
+      border-color: $color;
+    }
+
+    button {
+      background: $color;
+    }
+  }
+}
+
+// Nav Bar dark/light Mixin
+@mixin navbar($shade) {
+  .branding a{
+    color: $shade;
+  }
+
+  .nav__menu ul li .menu__item {
+    color: $shade;
+  }
+
+  .box-link{
+    color: $shade;
+    border-color: $shade;
+  }
+}
