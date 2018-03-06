@@ -1,7 +1,7 @@
 /*Background*/
 
 .background_child {
-  background-image: url(/assets/child.jpg);
+  background-image: url({{ site.github.url }}/assets/child.jpg);
   background-size: cover;
   background-position: center;
 }
