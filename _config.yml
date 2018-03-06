@@ -12,8 +12,6 @@ collections:
 
 email:  
 description: ""
-baseurl: ""
-url: ""
 sass:
   style: compressed
 github_username: humont
