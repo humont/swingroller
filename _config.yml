@@ -3,6 +3,9 @@ title: SwingRoller
 timezone: UTC
 
 collections:
+  posts:
+    title: Posts
+    output: true
   assets:
     title: Assets
     output: false
@@ -11,6 +14,8 @@ email:
 description: ""
 baseurl:
 url:
+sass:
+  style: compressed
 github_username: humont
 markdown: kramdown
 gems:
@@ -18,3 +23,4 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
+- README.md
