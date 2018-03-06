@@ -1,7 +1,7 @@
 /*Background*/
 
 .background_child {
-  background-image: url({{ "/assets/child.jpg" | relative_url }});
+  background-image: url("{{ "/assets/child.jpg" | relative_url }}");
   background-size: cover;
   background-position: center;
 }
