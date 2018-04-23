@@ -2,9 +2,11 @@
 
 .logo {
   
-  &_large {}
+  &_large {
+    height: 20vw;
+  }
   &_small {
-    width: 20vw;
-    max-width: 300px;
+    width: 15vw;
+    max-width: 250px;
   }
 }
